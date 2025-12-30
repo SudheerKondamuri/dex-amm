@@ -1,2 +1,22 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Hardhat Build Artifacts
+# These are the JSON files created when you run 'npx hardhat compile'
+artifacts/
+cache/
+
+# Sensitive Information
+# NEVER commit your private keys or API keys
 .env
+
+# Testing & Coverage
+coverage/
+coverage.json
+
+# TypeChain (if used)
+typechain/
+typechain-types/
+
+# Logs
+*.log
