@@ -1,2 +1,8 @@
-node_modules
+node_modules/
 .env
+.git/
+*.log
+coverage/
+cache/
+artifacts/
+typechain-types/
